@@ -34,7 +34,7 @@ const App = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-indigo-400 to-cyan-400 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-blue-300 from-indigo-400 to-cyan-400 flex items-center justify-center p-4">
       <div className="bg-white rounded-2xl shadow-xl p-8 w-full max-w-md">
         <h1 className="text-3xl font-bold text-center mb-6 text-indigo-700">📝 Todo List</h1>
 
@@ -72,7 +72,7 @@ const App = () => {
                 onClick={() => dispatch({ type: "DELETE", payload: todo.id })}
                 className="ml-4 text-red-500 hover:text-red-700"
               >
-                🗑️
+               ❌
               </button>
             </li>
           ))}
