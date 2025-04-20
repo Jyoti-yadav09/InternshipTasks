@@ -59,9 +59,9 @@ const App = () => {
           <div className="mt-6 text-center animate-fade-in">
             <h2 className="text-3xl font-bold mb-1">{weatherData.name}</h2>
             <p className="text-lg italic mb-2 capitalize">{weatherData.weather[0].description}</p>
-            <p className="text-2xl font-semibold mb-2">🌡 {weatherData.main.temp}°C</p>
-            <p className="text-lg mb-1">💧 Humidity: {weatherData.main.humidity}%</p>
-            <p className="text-lg">💨 Wind: {weatherData.wind.speed} m/s</p>
+            <p className="text-2xl font-semibold mb-2"> {weatherData.main.temp}°C</p>
+            <p className="text-lg mb-1">Humidity: {weatherData.main.humidity}%</p>
+            <p className="text-lg"> Wind: {weatherData.wind.speed} m/s</p>
           </div>
         )}
       </div>
