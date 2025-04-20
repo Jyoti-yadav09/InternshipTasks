@@ -8,7 +8,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gray-400 from-pink-400 to-indigo-500 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-pink-400 to-indigo-500 flex items-center justify-center p-4">
       <div className="bg-white/20 backdrop-blur-lg p-8 rounded-2xl shadow-2xl text-center text-white w-full max-w-md">
         <h1 className="text-3xl font-bold mb-4">Memoized Click Handler</h1>
         <p className="text-xl mb-6">Count: <span className="font-bold text-yellow-300">{count}</span></p>
