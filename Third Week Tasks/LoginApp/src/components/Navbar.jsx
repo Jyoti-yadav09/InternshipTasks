@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
    
-      <nav className='bg-white shadow-md fixed top-0 left-0 w-full z-50'>
+      <nav className='bg-white-100 shadow-md fixed top-0 left-0 w-full z-50'>
         <div className='max-w-7xl mx-auto px-6 py-4 flex justify-between items-center'>
           <Link to ="/" className='text-2xl font-bold text-blue-600'>ReactAuthApp</Link>
           <div className='space-x-4'>
