@@ -11,7 +11,7 @@ const Home = () => {
         <img src="/assets/programming.jpg"/>
       </section>
       <section>
-        {['Authentication', 'Routing', 'State Management', 'Reusable UI', 'Responsive Design', 'Clean Code'].map((title,i)=(
+        {['Authentication', 'Routing', 'State Management', 'Reusable UI', 'Responsive Design', 'Clean Code'].map((title,i)=>(
             <div key={i}>
                 <h3>{title}</h3>
                 <p>
